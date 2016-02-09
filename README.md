@@ -10,4 +10,4 @@ Installation
 4. cd
 5. cd /folder/where/you/saved/it
 6. chmod a+x #scriptname
-7. #scriptname
+7. #scriptname or ./#scriptname
