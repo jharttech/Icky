@@ -1,0 +1,10 @@
+#!/bin/sh
+ 
+echo "What Video Sir?"
+ 
+read F1
+F=`echo $F1 | sed s/\ /+/g`
+ 
+echo "Right Away Sir..."
+ 
+open "https://www.youtube.com/results?search_query=$F"
