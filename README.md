@@ -4,7 +4,8 @@ Different scripts to run a "butler" or "Jarvis" on your terminal.
 
 Installation
 
-1. git clone https://github.com/Domitius/terminal_butler.git
+1.<b> Clone the Git Repository </b>
+    git clone https://github.com/Domitius/terminal_butler.git
 2. cd terminal_butler
 3. mv #scriptname /folder/destination
 4. cd
