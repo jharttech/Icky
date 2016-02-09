@@ -17,4 +17,11 @@ Different types of scripts to run a "Butler" or "Jarvis" in your terminal.
 6. <b> Make The Script Executable </b><br>
    `chmod a+x #scriptname` <br>
 7. <b> Run The Script </b><br>
-   `#scriptname or ./#scriptname` <br>
+   `#scriptname or ./#scriptname` <br><br>
+
+<u><b> FOR LINUX: </b></u>
+
+1.<b> Change #!/bin/sh to #!/bin/bash <b><br>
+2. <b> Install Curl </b><br>
+   `sudo apt-get install curl`
+3. Run Script ./#scriptname
