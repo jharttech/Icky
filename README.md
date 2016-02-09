@@ -21,7 +21,7 @@ Different types of scripts to run a "Butler" or "Jarvis" in your terminal.
 
 <u><b> FOR LINUX: </b></u>
 
-1.<b> Change #!/bin/sh to #!/bin/bash <b><br>
+1.<b> Change #!/bin/sh to #!/bin/bash <b><br><br>
 2. <b> Install Curl </b><br>
    `sudo apt-get install curl`<br>
 3. Run Script ./#scriptname
