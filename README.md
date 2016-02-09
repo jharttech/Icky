@@ -1,5 +1,5 @@
 # terminal_butler
-Different scripts to run a "butler" on your terminal to search the web for different things.
+Different scripts to run a "butler" or "Jarvis" on your terminal.
 (Only tested on Mac as of now)
 
 Installation
