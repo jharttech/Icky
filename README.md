@@ -1,4 +1,4 @@
-
+<h2> JARVIS INSTALLATION </h2>
 Different types of scripts to run a "Butler" or "Jarvis" in your terminal.
 (Only written for Mac OS)
 
