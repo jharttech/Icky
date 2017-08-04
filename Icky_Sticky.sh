@@ -1,7 +1,20 @@
 #!/bin/bash
+#####################################################
+# Adding logic block to check if these packages are already
+# installed and if so do nothing; if not installed then install
 sudo apt-get update -y
-sudo apt-get install scrot -y
-sudo apt-get install sshpass -y
+_Pkg_One=$(dpkg-query -W --showformat='${Status}\n' scrot|grep "install ok installed")
+if ["" == "_Pkg_One" ];
+	then 
+		sudo apt-get --force-yes --yes install scrot
+fi
+
+_Pkg_Two=$(dpkg-query -W --showformat='${Status}\n' sshpass|grep "install ok installed")
+if [ == "_Pkg_Two" ]
+	then 
+		sudo apt-get --force-yes --yes install sshpass
+fi
+#####################################################
 cd /tmp
 mkdir kl
 cd /tmp/kl
